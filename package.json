@@ -3,22 +3,36 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "pg": "^8.13.3",
-    "sequelize": "^6.37.5",
-    "sequelize-cli": "^6.6.2"
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2",
+    "sequelize-cli": "^6.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrigeshDeshpande/DocSync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrigeshDeshpande/DocSync/issues"
+  },
+  "homepage": "https://github.com/MrigeshDeshpande/DocSync#readme",
+  "description": ""
 }
